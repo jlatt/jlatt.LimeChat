@@ -48,7 +48,7 @@ body { background: #000; }
 
 .message[type=system], .message[type=join], .message[type=kick],
 .message[type=quit], .message[type=kill], .message[type=nick], .message[type=mode],
-.message[type=topic], .message[type=invite], .message[type=wallops] {
+.message[type=topic], .message[type=invite], .message[type=wallops], .message[type=part] {
   color: #5e5e5e;
 }
 .message[type=reply] { color: #509036; }
@@ -58,5 +58,3 @@ body { background: #000; }
 .message[type=dcc_send_receive] { color: #f9ee98; }
 .message[type=debug_send] { color: #8996a8; }
 .message[type=debug_receive] { color: #afc4db; }
-
-.message[type=part] { color: #000; }
