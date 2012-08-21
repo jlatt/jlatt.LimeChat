@@ -22,7 +22,7 @@ body { background: #000; }
 .line:hover { background: #111; }
 
 .time { display: none; color: #666; float: right; }
-.line:hover .time, .line:last-child .time { display: inline; }
+.line:hover .time, .line:last-of-type .time { display: inline; }
 .place { color: #3387bc; }
 
 .sender[type=normal]                   { color: #3e87e3; }
