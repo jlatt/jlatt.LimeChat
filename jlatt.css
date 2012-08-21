@@ -21,7 +21,7 @@ body { background: #000; }
 .line[highlight=true] {}
 .line:hover { background: #111; }
 
-.time { display: none; color: #666; }
+.time { display: none; color: #666; float: right; }
 .line:hover .time { display: inline; }
 .place { color: #3387bc; }
 
