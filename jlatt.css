@@ -20,7 +20,8 @@ body { background: #000; }
 .line[alternate=odd] {}
 .line[highlight=true] {}
 
-.time { color: #666; }
+.time { display: none; color: #666; }
+.line:hover .time { display: inline; }
 .place { color: #3387bc; }
 
 .sender[type=normal]                   { color: #3e87e3; }
