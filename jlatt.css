@@ -19,6 +19,7 @@ body { background: #000; }
 .line[alternate=even] {}
 .line[alternate=odd] {}
 .line[highlight=true] {}
+.line:hover { background: #111; }
 
 .time { display: none; color: #666; }
 .line:hover .time { display: inline; }
