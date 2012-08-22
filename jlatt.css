@@ -20,8 +20,7 @@ body { background: #000; }
 .line[alternate=odd] {}
 .line[highlight=true] {}
 
-.time { color: #666; float: right; margin-left: 0.5em; display: none; }
-.line:nth-last-of-type(10n + 1) .time { display: inline; }
+.time { color: #666; float: right; margin-left: 0.5em; }
 .place { color: #3387bc; }
 
 .sender[type=normal]                   { color: #3e87e3; }
