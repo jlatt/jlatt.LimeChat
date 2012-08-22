@@ -19,10 +19,9 @@ body { background: #000; }
 .line[alternate=even] {}
 .line[alternate=odd] {}
 .line[highlight=true] {}
-.line:hover { background: #111; }
 
-.time { display: none; color: #666; float: right; }
-.line:hover .time, .line:last-of-type .time { display: inline; }
+.time { color: #666; float: right; margin-left: 0.5em; display: none; }
+.line:nth-last-of-type(5n + 1) .time { display: inline; }
 .place { color: #3387bc; }
 
 .sender[type=normal]                   { color: #3e87e3; }
