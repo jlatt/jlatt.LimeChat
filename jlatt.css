@@ -21,7 +21,7 @@ body { background: #000; }
 .line[highlight=true] {}
 
 .time { color: #666; float: right; margin-left: 0.5em; display: none; }
-.line:nth-last-of-type(5n + 1) .time { display: inline; }
+.line:nth-last-of-type(10n + 1) .time { display: inline; }
 .place { color: #3387bc; }
 
 .sender[type=normal]                   { color: #3e87e3; }
