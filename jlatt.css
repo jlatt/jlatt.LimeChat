@@ -1,60 +1,78 @@
 html {
-  font-family: 'Monaco';
-  font-size: 12px;
-  background: #000;
-  color: #eee;
+    font: 12px/1.3 'Source Code Pro', monospace;
+    color: #eee; background-color: #000;
 }
-body { background: #000; }
 
-.url { color: #99cf50; }
-.address {}
+.url {
+    color: lightblue;
+}
+
 .highlight {
-  font-weight: bold;
-  padding: 0 3px;
-  color: #000;
-  background-color: #ff8c00;
+    font-weight: bold;
+    color: #000; background-color: #ff8c00;
 }
 
-.line {}
-.line[alternate=even] {}
-.line[alternate=odd] {}
-.line[highlight=true] {}
+.time {
+    float: right;
+    margin-left: 0.5em;
+    color: #888;
+}
 
-.time { color: #666; float: right; margin-left: 0.5em; }
 .place { color: #3387bc; }
 
 .sender[type=normal]                   { color: #3e87e3; }
+.sender[type=normal][colornumber="0"]  { color: #f7ba00; }
+.sender[type=normal][colornumber="1"]  { color: #d2691e; }
+.sender[type=normal][colornumber="2"]  { color: #ef4e6e; }
+.sender[type=normal][colornumber="3"]  { color: #7fffd4; }
+.sender[type=normal][colornumber="4"]  { color: #a0740a; }
+.sender[type=normal][colornumber="5"]  { color: #9932cc; }
+.sender[type=normal][colornumber="6"]  { color: #008b46; }
+.sender[type=normal][colornumber="7"]  { color: #ff1493; }
+.sender[type=normal][colornumber="8"]  { color: #1e90ff; }
+.sender[type=normal][colornumber="9"]  { color: #ffd700; }
+.sender[type=normal][colornumber="10"] { color: #cd5c5c; }
+.sender[type=normal][colornumber="11"] { color: #add8e6; }
+.sender[type=normal][colornumber="12"] { color: #90ee90; }
+.sender[type=normal][colornumber="13"] { color: #ffffe0; }
+.sender[type=normal][colornumber="14"] { color: #ffa500; }
+.sender[type=normal][colornumber="15"] { color: #d9bfbf; }
 .sender[type=myself]                   { color: #bd0000; }
-.sender[type=normal][colornumber='0']  { color: #7FFF00; }
-.sender[type=normal][colornumber='1']  { color: #D2691E; }
-.sender[type=normal][colornumber='2']  { color: #DC143C; }
-.sender[type=normal][colornumber='3']  { color: #7FFFD4; }
-.sender[type=normal][colornumber='4']  { color: #B8860B; }
-.sender[type=normal][colornumber='5']  { color: #9932CC; }
-.sender[type=normal][colornumber='6']  { color: #8B008B; }
-.sender[type=normal][colornumber='7']  { color: #FF1493; }
-.sender[type=normal][colornumber='8']  { color: #1E90FF; }
-.sender[type=normal][colornumber='9']  { color: #FFD700; }
-.sender[type=normal][colornumber='10'] { color: #CD5C5C; }
-.sender[type=normal][colornumber='11'] { color: #ADD8E6; }
-.sender[type=normal][colornumber='12'] { color: #90EE90; }
-.sender[type=normal][colornumber='13'] { color: #FFFFE0; }
-.sender[type=normal][colornumber='14'] { color: #FFA500; }
-.sender[type=normal][colornumber='15'] { color: #BC8F8F; }
 
-.message[type=privmsg] {}
 .message[type=notice] { color: #888; }
-.message[type=action] { color: #3e87e3;}
+.message[type=action] { color: #3e87e3; }
 
-.message[type=system], .message[type=join], .message[type=kick],
-.message[type=quit], .message[type=kill], .message[type=nick], .message[type=mode],
-.message[type=topic], .message[type=invite], .message[type=wallops], .message[type=part] {
-  color: #5e5e5e;
+.message[type=system],
+.message[type=join],
+.message[type=kick],
+.message[type=quit],
+.message[type=kill],
+.message[type=nick],
+.message[type=mode],
+.message[type=topic],
+.message[type=invite],
+.message[type=wallops],
+.message[type=part] {
+    color: #848484;
 }
-.message[type=reply] { color: #509036; }
 
-.message[type=error], .message[type=error_reply] { color: #f67b37; }
-.message[type=dcc_send_send] { color: #c5af75; }
-.message[type=dcc_send_receive] { color: #f9ee98; }
-.message[type=debug_send] { color: #8996a8; }
-.message[type=debug_receive] { color: #afc4db; }
+.message[type=reply] {
+    color: #538cc6;
+}
+
+.message[type=error],
+.message[type=error_reply] {
+    color: #f67b37;
+}
+.message[type=dcc_send_send] {
+    color: #c5af75;
+}
+.message[type=dcc_send_receive] {
+    color: #f9ee98;
+}
+.message[type=debug_send] {
+    color: #8996a8;
+}
+.message[type=debug_receive] {
+    color: #afc4db;
+}
