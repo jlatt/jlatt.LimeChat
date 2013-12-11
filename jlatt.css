@@ -23,7 +23,7 @@ html {
 }
 
 .url {
-    color: lightblue;
+    color: #ADD8E6;
 }
 
 .highlight {
@@ -32,6 +32,8 @@ html {
 }
 
 .place {
+    display: block;
+    margin-right: 0.5em;
     color: #3387bc;
 }
 
