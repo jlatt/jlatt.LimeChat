@@ -3,6 +3,25 @@ html {
     color: #eee; background-color: #000;
 }
 
+.line {
+    display: -webkit-box; -webkit-box-orient: horizontal;
+}
+
+.time {
+    display: block;
+    margin-right: 0.5em;
+    color: #888;
+}
+
+.sender {
+    display: block;
+    margin-right: 0.5em;
+}
+
+.message {
+    display: block; -webkit-box-flex: 1;
+}
+
 .url {
     color: lightblue;
 }
@@ -12,13 +31,9 @@ html {
     color: #000; background-color: #ff8c00;
 }
 
-.time {
-    float: right;
-    margin-left: 0.5em;
-    color: #888;
+.place {
+    color: #3387bc;
 }
-
-.place { color: #3387bc; }
 
 .sender[type=normal]                   { color: #3e87e3; }
 .sender[type=normal][colornumber="0"]  { color: #f7ba00; }
