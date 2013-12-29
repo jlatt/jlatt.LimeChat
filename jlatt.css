@@ -9,8 +9,8 @@ html {
 
 .time {
     display: block;
-    margin-right: 0.5em;
     color: #888;
+    white-space: pre;
 }
 
 .sender {
