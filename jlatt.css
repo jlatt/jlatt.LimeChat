@@ -20,11 +20,14 @@ html {
 
 .message {
     display: block; -webkit-box-flex: 1;
+    max-width: 48em;
 }
 
 .url {
+    display: inline-block;
     color: #ADD8E6;
-    white-space: nowrap;
+    white-space: nowrap; text-overflow: ellipsis; overflow: hidden;
+    max-width: 48em;
 }
 
 .highlight {
